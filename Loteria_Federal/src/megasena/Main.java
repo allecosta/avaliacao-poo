@@ -17,6 +17,9 @@ public class Main { // Classe principal do programa
         for (int i = 0; i < dezena.length - 1; i++) // Ordenando dezenas do array
             for (int j = i + 1; j < dezena.length; j++)
                 if (dezena [i] > dezena [j]){
+                    aux = dezena [i];
+                    dezena [i] = dezena [j];
+                    dezena [j] = aux;
                     
                 }
         System.out.println("DEZENAS DA MEGA-SENA"); // Visualizando as dezenas geradas
