@@ -1,11 +1,11 @@
-package megasena; // Pacote do Projeto
+package megasena;
 
-import java.util.Random; // Importação da classe Random
+import java.util.Random; 
 
-public class Main { // Classe principal do programa
+public class Main { 
 
-    public static void main(String[] args) { // Método principal do programa
-        Random r = new Random(); // Instância do objeto usando o construtor padrão
+    public static void main(String[] args) { 
+        Random r = new Random(); // 
         int dezena [] = new int [6];
         int aux = 0;
         
